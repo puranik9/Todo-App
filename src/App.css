@@ -30,3 +30,62 @@
     transform: rotate(360deg);
   }
 }
+
+.created-task {
+  display: flex;
+}
+
+.created-task li {
+  margin: 0 10px;
+}
+
+.created-task li span {
+  color: white;
+  font-size: 18px;
+}
+
+.todo-wrapper {
+  height: auto;
+  min-height: 188px;
+  max-height: 256px;
+  width: 320px;
+  text-align: center;
+  margin: 20px auto;
+  background-color: #2e2e2e;
+  opacity: 0.9;
+}
+
+.todo-main {
+  padding: 25px;
+}
+
+.todo-header form input {
+  border: none;
+  background: none;
+  font-size: 16px;
+  color: white;
+}
+
+.todo-header form input:focus {
+  outline: 0;
+}
+
+.todo-header form button {
+  padding: 6px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.theList {
+  list-style: none;
+}
+
+.todo-wrapper > div {
+  padding: 5px 0;
+  color: white;
+}
+
+.done span{
+  text-decoration: line-through;
+  opacity: 0.5;
+}
